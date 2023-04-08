@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: white;
+	background: rgb(30, 27, 27);
+	font-family: 'Gill Sans', 'Gill Sans MT', 
+	  Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+	display: inline-block;
+}
+
+h1 {
+	display: inline-block;
+}
+
+h3 {
+	display: inline-block;
+}
+
+body{
+	width: 100%;
+	
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+h2{
+	padding-left: 20px;
+}
+
+ul{
+	display: flex;
+	
+}
+
+li{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 110px;
+	padding-right: 110px;
+}
+
+.header{
+	width: 100%;
+	display: flex;
+	flex-flow: nowrap;
+}
+
+.header-left{
+	display: flex;
+	width: 50%;
+	padding: 0px 20px 0px 20px;
+	justify-content: center;
+	flex-direction: column;
+}
+h1{
+	font-size: 4rem;
+	margin-bottom: 20px;
+}
+
+.start-a{
+	padding-bottom: 20px;
+	color: rgb(65, 65, 200);
+	font-size: 1.5rem;
+}
+
+.header-right{
+	width: 50%;
+	padding: 0px 5px 0px 5px;  /* top right bottom left */
+}
+
+.main-image{
+	width: 90%;
+	right: -45px;
+	position: relative;
+}
+
+
+.infos{
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-height: 15vh; 
+	background: black;
+}
+
+.infos-left{
+	display: block;
+	margin-left: 30px;
+	background: black;
+	width: 20%;
+}
+
+.btn-container{
+	background-color: black;
+}
+
+.core, .investors{
+	background-color: black;
+}
+
+.our-investors{
+	background-color: black;
+	align-self: flex-start;
+}
+
+.core{
+	padding: 20px 0 20px 0;
+}
+
+button{
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: rgb(73,79,253);
+	width: 150px;
+}
+
+.img-container{
+	display: flex;
+	background: black;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.infos-right{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	width: 80%;
+}
+
+.bottom-img{
+	width: 10%;
+	background: black;
+	margin: 0 70px 0 70px;
+}
